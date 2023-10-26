@@ -9,15 +9,9 @@
 body {
     background-color: #00294b;
     background-image: url("/assets/gifs-de-dinheiro-voando-15.gif");
-
-    
-   
 }
-
-
-
 .logo {
-    width: 365px;
+    width: 327px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,6 +19,7 @@ body {
 
 main {
     width: 375px;
+    height: 712px;
     border-radius: 20px;
     background: #F4F4F4;
     margin: 0 auto;
