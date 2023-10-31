@@ -57,7 +57,7 @@ function changecurrency() {
 
     if (currencySelect.value == 'libra') {
         currencyDolar.innerHTML = "Libra"
-        currencyImg.src = './assets/libra 1.png'
+        currencyImg.src = './assets/libra1.png'
     }
 
     convertValues()
