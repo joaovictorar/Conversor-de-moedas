@@ -47,7 +47,7 @@ function changecurrency() {
 
     if (currencySelect.value == 'dolar') {
         currencyDolar.innerHTML = "Dólar Americano"
-        currencyImg.src = './assets/estados-unidos(1) 1.png'
+        currencyImg.src = './assets/estados-unidos(1)1.png'
     }
 
     if (currencySelect.value == 'euro') {
