@@ -8,9 +8,9 @@ function convertValues() {
 
     console.log(currencySelect.value)
 
-    const dolarToday = 5
-    const euroToday = 5.27
-    const libraToday = 6.4
+    const dolarToday = 4.95
+    const euroToday = 5.28
+    const libraToday = 6.5
 
 
     if (currencySelect.value == 'dolar') {
