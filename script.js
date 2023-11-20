@@ -8,9 +8,9 @@ function convertValues() {
 
     console.log(currencySelect.value)
 
-    const dolarToday = 4.95
-    const euroToday = 5.28
-    const libraToday = 6.5
+    const dolarToday = 4.86
+    const euroToday = 5.32
+    const libraToday = 6.8
 
 
     if (currencySelect.value == 'dolar') {
@@ -28,9 +28,9 @@ function convertValues() {
     }
 
     if (currencySelect.value == 'libra') {
-        currencyValueConverted.innerHTML = new Intl.NumberFormat("uk-UK", {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
-            currency: "IB"
+            currency: "GBP"
         }).format(inputCurrencyValue / libraToday)
     }
 
